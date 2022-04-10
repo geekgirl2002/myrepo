@@ -48,9 +48,6 @@ if(root->left == NULL || root->right == NULL)
 if(root->left == NULL){
 root->left = temp;
 }
-
-UNIT-IV
-
 else if(root->right == NULL){
 root->right = temp;
 }
@@ -96,8 +93,6 @@ if(temp!=NULL)
 {
 if(temp->left)
 inorder(temp->left);
-
-UNIT-IV
 
 printf("%d ",temp->data);
 if(temp->right)
